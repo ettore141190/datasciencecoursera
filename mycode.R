@@ -8,3 +8,7 @@ second <- function(x)  {
   
   x+rnorm(length(x))
 }
+
+average <- function(x, y) {
+  (x + y) / 2
+}
